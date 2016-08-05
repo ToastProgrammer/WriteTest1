@@ -2,9 +2,9 @@ filename = 'C:\\Users\\btozier\\Desktop\\Remote Type Test.txt'
 
 target = open(filename, 'w')
 
-line1 = raw_input("line 1: ")
-line2 = raw_input("line 2: ")
-line3 = raw_input("line 3: ")
+line1 = "Did"
+line2 = "It"
+line3 = "Work?"
 
 target.write(line1)
 target.write("\n")
